@@ -1,0 +1,10 @@
+<div  class="cpm-article" data-sly-use.model="com.adobe.aem.guides.foodland.core.models.ArticleComponentModel">
+    <div>
+        <H2>${model.title}</H2>
+        <p>${model.text}</p>
+    </div>
+
+    <div class="cpm-category_comp">
+        <sly  data-sly-resource="${'nome do componente' @ resourceType='wcm/foundation/components/parsys'}"></sly>
+    </div>
+</div>

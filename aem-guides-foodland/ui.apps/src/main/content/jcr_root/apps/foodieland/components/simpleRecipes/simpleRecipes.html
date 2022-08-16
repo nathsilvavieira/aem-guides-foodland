@@ -1,0 +1,13 @@
+<div class="cpm-recipe" data-sly-use.model="com.adobe.aem.guides.foodland.core.models.RecipesComponentModel">
+    <div >
+        <a data-sly-use.image="com.adobe.cq.wcm.core.components.models.Image" href="${image.link}">
+            <img data-sly-test="${model.fileReference}" src="${model.fileReference}" alt="">
+        </a>
+    </div>
+    
+    <div>
+        <h2>${model.recipeTitle}</h2>
+        <p>${model.time} min</p>
+        <p>${model.recipeType}</p>
+    </div>
+</div>

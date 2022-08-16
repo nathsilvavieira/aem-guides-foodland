@@ -1,0 +1,29 @@
+<header class="header" data-sly-use.model="com.adobe.aem.guides.foodland.core.models.HeaderComponentModel">
+    <img src="${model.fileReference}" alt="logo">
+
+    <div data-sly-use.button="com.adobe.cq.wcm.core.components.models.Button">
+        <span>
+            <a href="${button.link}">Home</a>
+        </span>
+        <span>
+            <a href="${button.link}">Recipes</a>
+        </span>
+        <span>
+            <a href="${button.link}">Blog</a>
+        </span>
+        <span>
+            <a href="${button.link}">Contact</a>
+        </span>
+        <span>
+            <a href="${button.link}">About us</a>
+        </span>
+    </div>
+
+
+    <div class="cmp-header__image-social">
+        <a href="${model.linkFacebook}"><img src="${model.facebookReference}" alt="facebook"></a>
+        <a href="${model.linkTwitter}"><img src="${model.twitterReference}" alt="twitter"></a>
+        <a href="${model.linkInstagram}"><img src="${model.instagramReference}" alt="instagram"></a>
+    </div>
+
+</header>
